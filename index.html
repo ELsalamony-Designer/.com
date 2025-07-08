@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>ATR.egclothes/main</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
+     <style>
 
       body {
 
@@ -259,6 +259,151 @@
       }
 
     </style>
+
+
+
+      .cart {
+
+        background: #fff;
+
+        padding: 15px;
+
+        border: 1px solid #aaa;
+
+        border-radius: 10px;
+
+        max-width: 300px;
+
+        margin: 30px auto;
+
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+      }
+
+
+
+      .cart h3 {
+
+        margin-top: 0;
+
+      }
+
+
+
+      .cart-item {
+
+        margin-bottom: 8px;
+
+      }
+
+
+
+      .remove-btn {
+
+        margin-left: 10px;
+
+        background: none;
+
+        border: none;
+
+        cursor: pointer;
+
+      }
+
+
+
+      .remove-btn img {
+
+        width: 40px;
+
+        height: 40px;
+
+        vertical-align: middle;
+
+      }
+
+
+
+      button {
+
+        padding: 10px 15px;
+
+        background: black;
+
+        color: white;
+
+        border: none;
+
+        border-radius: 6px;
+
+        cursor: pointer;
+
+      }
+
+
+
+      button:hover {
+
+        background: #333;
+
+      }
+
+
+
+      .checkout-form {
+
+        display: none;
+
+        background: #fff;
+
+        padding: 15px;
+
+        border: 1px solid #aaa;
+
+        max-width: 350px;
+
+        margin: 20px auto;
+
+        border-radius: 10px;
+
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+      }
+
+
+
+      input,
+
+      textarea {
+
+        width: 100%;
+
+        margin-bottom: 10px;
+
+        padding: 8px;
+
+        border-radius: 5px;
+
+        border: 1px solid #ccc;
+
+      }
+
+      .sizes {
+
+        display: flex;
+
+        gap: 10px;
+
+        margin-bottom: 10px;
+
+      }
+
+      .sizes label {
+
+        cursor: pointer;
+
+      }
+
 
         button {
             padding: 10px 20px;
@@ -651,9 +796,6 @@
 
             <div class="category-section" id="shirts-tshirts-section">
                 <h2>Shirts/T-Shirts
-                    <div class="drag-hint" id="shirtsDragHint">
-                        <span class="arrow">&gt;&gt;</span> اسحب لليمين لرؤية المزيد
-                    </div>
                 </h2>
                 <div class="container">
                     <div class="product" data-category="shirts">
@@ -705,9 +847,6 @@
 
             <div class="category-section" id="suits-section">
                 <h2>Suits
-                    <div class="drag-hint" id="suitsDragHint">
-                        <span class="arrow">&gt;&gt;</span> اسحب لليمين لرؤية المزيد
-                    </div>
                 </h2>
                 <div class="category-section" id="suits-men-section">
                     <h3>Men's Suits</h3>
